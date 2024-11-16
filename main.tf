@@ -5,6 +5,9 @@ provider "aws" {
 resource "aws_s3_bucket" "terraform-projects1" {
   bucket = "terraform-projects1"
 }
+resource "aws_s3_bucket" "terraform-projects2" {
+  bucket = "terraform-projects2"
+}
 
 # Insert Bucket name here!
 terraform {
