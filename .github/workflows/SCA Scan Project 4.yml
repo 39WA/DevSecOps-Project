@@ -2,7 +2,7 @@ on:
     push:
       branches:
         - main
-  jobs:
+jobs:
     deploy-and-scan:
       name: Pull Docker Image and SCA Scan
       runs-on: ubuntu-latest
